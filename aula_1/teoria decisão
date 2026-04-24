@@ -1,0 +1,27 @@
+nome = input("Digite o seu nome: ")
+
+idade = int(input("digite sua idade: "))
+
+print("Olá, ",nome,"! A sua idade é ",idade)
+
+
+# A estrutura de decisão analisa uma comparação e executa o código
+# Com base na resposta para utilizarmos a estrutura de decisão,precisa
+# De compradores, que são:
+
+# - > maior
+# - < menor
+# - == igual
+# - != diferente
+# - >= maior ou igual
+# - <= menor ou igual
+# - ! não
+
+if idade >= 18:
+    print("Você é maior de idade!")
+    if idade >=60:
+        print("você é idoso!")
+        print("já pode pegar a carteirinha de estacionamento")
+else:
+    print("você é menor de idade!")
+    print("não pode comprar cigarro no Reino Unido")
